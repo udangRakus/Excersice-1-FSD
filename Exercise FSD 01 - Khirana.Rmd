@@ -124,7 +124,7 @@ plot(newData3)
 
 #PROBABILITY
 #Binomial random variable :
-example, if we have some coin and than we flip 10 times and the X is the number of head after flip.if the probability of coin is head P(H) = 0.6, what if we get X = 3 head on coins after 10 flip?
+example, if we have some coin and then we flip 10 times and the X is the many of head after flip.if the probability of coin is head P(H) = 0.6, what if we get X = 3 head on coins after 10 flip?
 ```{r}
 dbinom(3,size = 10, prob = 0.6)
 ```
